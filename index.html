@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Cheats Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fondo animado -->
+  <canvas id="particles"></canvas>
+
+  <!-- Barra de anuncios -->
+  <div class="anuncios">
+    <marquee behavior="scroll" direction="left">
+      🎉 10% de descuento en todos los productos 🎉
+    </marquee>
+  </div>
+
+  <header>
+    <h1>Easy Cheats Shop</h1>
+    <p>Tu tienda de trucos y recursos exclusivos</p>
+  </header>
+
+  <main>
+    <!-- Sección de productos -->
+    <section id="productos">
+      <h2>Productos</h2>
+      <div class="producto">
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto.</p>
+        <button class="btn" onclick="destello(this)">Comprar</button>
+      </div>
+      <div class="producto">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto.</p>
+        <button class="btn" onclick="destello(this)">Comprar</button>
+      </div>
+    </section>
+
+    <!-- Sección de videos -->
+    <section id="videos">
+      <h2>Videos</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+              title="Video de ejemplo" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <a href="https://wa.me/123456789" class="btn" onclick="destello(this)">WhatsApp</a>
+      <a href="https://instagram.com/easycheats" class="btn" onclick="destello(this)">Instagram</a>
+      <a href="https://facebook.com/easycheats" class="btn" onclick="destello(this)">Facebook</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Easy Cheats Shop - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
